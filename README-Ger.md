@@ -19,6 +19,8 @@ Die hier vorgestellte Schaltung setzt die Lastverteilung um. Die Platine kann au
 
 Eine ausführliche Erklärung ist hier zu finden: [detailierte Beschreibung](https://www.best-microcontroller-projects.com/tp4056.html)
 
+Platine fertigen lassen: [Aisler](https://aisler.net/p/JAYYOSGH)
+
 ## Betrieb mit einer Solarzelle
 Wird das TP4056-Breakout mit einer Solarzelle betrieben, so muss der max. mögl. Ladestrom reduziert werden, weil 5V Solarzellen üblicherweise nicht 1A Ladestrom liefern können. Bei einer 2,5W Solarzelle mit 5V werden maximal 500mA Ladestrom erzeugt. Die Anpassung erfolgt auf den TP4056-Breakouts, indem der Widerstand R3 (1,2kΩ) ausgetauscht wird.
  
