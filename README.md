@@ -24,7 +24,6 @@ Have PCBs made: [Aisler](https://aisler.net/p/JAYYOSGH)
 ## Operation with solar cell
 If the TP4056 breakout is operated with a solar cell, the maximum possible charging current must probably be reduced because, for example, 5V solar cells usually cannot deliver 1A charging current. A 2.5W solar cell with 5V generates a maximum charging current of 500mA. The adjustment is made on the TP4056 breakouts by swapping the resistor R3 (1.2kΩ).
 
-<div align="center">
 |  R3 (kΩ)   | I-Bat (mA) |
 | ----------:|-----------:|
 |    10      |        130 |
@@ -36,7 +35,6 @@ If the TP4056 breakout is operated with a solar cell, the maximum possible charg
 |     1.50   |        780 |
 |     1.33   |        900 |
 |     1.20   |       1000 | 
-</div>
 
 A value between 2kΩ and 3kΩ would be appropriate for a solar cell such as that listed above.
 ![TCP4056 R3](https://github.com/DoImant/Stuff/blob/main/TP4056-Bypass/tp4056-resistor.jpg?raw=true)
