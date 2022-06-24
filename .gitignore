@@ -1,0 +1,24 @@
+# Temporary Files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+*.sch-bak
+*.xml
+
+# Netlist files
+*.net
+
+#Autorouter files
+*.dsn
+*.ses
+
+#Dirs
+gerbers
+TC4056-Bypass-backups
